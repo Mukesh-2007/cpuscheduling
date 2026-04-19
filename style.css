@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #1e1e2f, #2c2c54);
+    color: white;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #2f2f4f;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.inputs, .controls {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+input, select, button {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+input, select {
+    background: #444;
+    color: white;
+}
+
+button {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.run-btn {
+    background: #00c853;
+    color: white;
+}
+
+.clear-btn {
+    background: #d50000;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #555;
+}
+
+#gantt {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.block {
+    padding: 15px;
+    background: #03a9f4;
+    border-radius: 8px;
+    min-width: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.stats {
+    text-align: center;
+    font-size: 18px;
+}
